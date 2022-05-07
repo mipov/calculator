@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,700;1,400&display=swap');
+
+.calculator {
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  display: block;
+  width: 450px;
+  height: 720px;
+  background-color: #001E34;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.display  {
+  position: relative;
+  width: 90%;
+  display: block;
+  flex-direction: column;
+  background-color: wheat;
+  height: 160px;
+  margin: auto;
+  top: 20px;
+  border-radius: 20px;
+}
+
+.display__sum {
+  position: relative;
+  word-wrap: break-word;
+  width: 90%;
+  left: 5px;
+  color: gray;
+  font-size: 2rem;
+}
+
+.display__operator {
+  position: absolute;
+  left: 5px;
+  bottom: 50px;
+  font-size: 2rem;
+  color: gray;
+}
+
+.display__input {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  font-size: 3rem;
+}
+
+.buttons {
+  font-size: 3rem;
+  display: block;
+  color: wheat;
+  width: 85%;
+  margin: auto;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  user-select: none;
+  background-color: #134a72;
+}
+
+.buttons__operators {
+  display: flex;
+  position: relative;
+  top: 50px;
+  justify-content: space-between;
+  color: #FFA800;
+}
+
+.numbers {
+  position: relative;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 8px;
+  top: 10px;
+  left: -40px;
+  color: white;
+}
+
+.equal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 383px;
+  font-size: 6rem;
+  color: white;
+  position: relative;
+  width: 90px;
+  background-color: #FFA800;
+  bottom: 422px;
+  left: 293px;
+}
