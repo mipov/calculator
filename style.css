@@ -21,13 +21,16 @@
   margin: auto;
   top: 20px;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .display__sum {
   position: relative;
   word-wrap: break-word;
   width: 90%;
-  left: 5px;
+  bottom: 25px;
+  overflow: hidden;
+  left: 15px;
   color: gray;
   font-size: 2rem;
 }
@@ -65,12 +68,23 @@
   background-color: #134a72;
 }
 
+.button:hover {
+  background-color: #296791;
+}
+.button:active {
+  color: rgb(55, 186, 219);
+}
+
 .buttons__operators {
   display: flex;
   position: relative;
   top: 50px;
   justify-content: space-between;
   color: #FFA800;
+}
+
+.button_operator:hover {
+  color: #ffbe3c
 }
 
 .numbers {
@@ -96,4 +110,12 @@
   background-color: #FFA800;
   bottom: 422px;
   left: 293px;
+  user-select: none;
+}
+
+.equal-button:hover {
+  box-shadow: 10px 5px 100px#78a2cc;
+}
+.equal-button:active {
+  background-color: red;
 }
